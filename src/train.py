@@ -166,8 +166,10 @@ class IoUMetric(keras.metrics.Metric):
 # ─────────────────────────────────────────────
 OPTIMIZERS = {
     
-    
+    "SGD":     keras.optimizers.SGD(learning_rate=1e-3, momentum=0.9),
+    "Adam":    keras.optimizers.Adam(learning_rate=1e-4),
     "RMSprop": keras.optimizers.RMSprop(learning_rate=1e-4),
+    "Adagrad": keras.optimizers.Adagrad(learning_rate=1e-3),
     
     
 }
