@@ -1,22 +1,11 @@
-# Ignore virtual environments
-tfenv/
-.venv/
-
-# Python cache
-__pycache__/
-*.pyc
-
-# Jupyter
-.ipynb_checkpoints/
-
-# VS Code
-.vscode/
-
 # Dataset
 data/
 
 # Trained models
 outputs/*.keras
+
+# Predictions
+outputs/predictions/
 
 # Python environment
 tfenv/
