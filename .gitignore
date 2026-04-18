@@ -11,3 +11,17 @@ __pycache__/
 
 # VS Code
 .vscode/
+
+# Dataset
+data/
+
+# Trained models
+outputs/*.keras
+
+# Python environment
+tfenv/
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
